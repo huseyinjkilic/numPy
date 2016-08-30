@@ -1,9 +1,7 @@
 import numpy as np
 
-a = np.array([1, 2, 3])
-print type(a)
-print a.shape
-print a[0], a[1], a[2]
+x = np.array([[1,2], [3,4]])
 
-a[0] = 5
-print a
+print x
+
+print x.T
